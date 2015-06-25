@@ -1,6 +1,6 @@
 # Alt Three Segment
 
-Alt Three Segment is a a Segment bridge for Laravel 5.
+A Segment bridge for Laravel 5.
 
 
 ## Installation
