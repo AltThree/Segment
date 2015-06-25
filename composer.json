@@ -25,7 +25,6 @@
     },
     "require-dev": {
         "graham-campbell/testbench": "~3.0",
-        "mockery/mockery": "^0.9.4",
         "phpunit/phpunit": "^4.7.6"
     },
     "autoload": {
@@ -37,6 +36,9 @@
         "psr-4": {
             "AltThree\\Tests\\Segment\\": "tests/"
         }
+    },
+    "config": {
+        "preferred-install": "dist"
     },
     "extra": {
         "branch-alias": {
