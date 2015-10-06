@@ -11,6 +11,7 @@
 
 namespace AltThree\Segment;
 
+use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
 use Segment;
 
@@ -28,7 +29,7 @@ class SegmentServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->setupConfig();
+        $this->setupConfig($this->app);
 
         if ($writeKey = $this->app->config->get('segment.write_key')) {
             Segment::init($writeKey);
@@ -38,9 +39,11 @@ class SegmentServiceProvider extends ServiceProvider
     /**
      * Setup the config.
      *
+     * @param \Illuminate\Contracts\Foundation\Application $app
+     *
      * @return void
      */
-    protected function setupConfig()
+    protected function setupConfig(Application $app)
     {
         $source = realpath(__DIR__.'/../config/segment.php');
 
