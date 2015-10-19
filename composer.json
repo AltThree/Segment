@@ -21,7 +21,7 @@
         "php": ">=5.5.9",
         "illuminate/config": "5.1.*",
         "illuminate/support": "5.1.*",
-        "segmentio/analytics-php": "1.1.*"
+        "segmentio/analytics-php": "1.2.*"
     },
     "require-dev": {
         "graham-campbell/testbench": "~3.0",
