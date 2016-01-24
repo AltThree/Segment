@@ -11,7 +11,6 @@
 
 namespace AltThree\Segment;
 
-use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
@@ -31,7 +30,7 @@ class SegmentServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->setupConfig($this->app);
+        $this->setupConfig();
 
         if ($writeKey = $this->app->config->get('segment.write_key')) {
             Segment::init($writeKey);
@@ -41,18 +40,16 @@ class SegmentServiceProvider extends ServiceProvider
     /**
      * Setup the config.
      *
-     * @param \Illuminate\Contracts\Foundation\Application $app
-     *
      * @return void
      */
-    protected function setupConfig(Application $app)
+    protected function setupConfig()
     {
         $source = realpath(__DIR__.'/../config/segment.php');
 
-        if ($app instanceof LaravelApplication && $app->runningInConsole()) {
+        if ($this->app instanceof LaravelApplication && $this->app->runningInConsole()) {
             $this->publishes([$source => config_path('segment.php')]);
-        } elseif ($app instanceof LumenApplication) {
-            $app->configure('segment');
+        } elseif ($this->app instanceof LumenApplication) {
+            $this->app->configure('segment');
         }
 
         $this->mergeConfigFrom($source, 'segment');
