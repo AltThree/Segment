@@ -1,6 +1,6 @@
 # Alt Three Segment
 
-A Segment bridge for Laravel 5.
+A [Segment](https://segment.com/) bridge for Laravel 5.
 
 
 ## Installation
