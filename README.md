@@ -5,25 +5,15 @@ A [Segment](https://segment.com/) bridge for Laravel 5.
 
 ## Installation
 
-Either [PHP](https://php.net) 5.5+ or [HHVM](http://hhvm.com) 3.6+ are required.
+This version requires [PHP](https://php.net) 7, and supports Laravel 5.1, 5.2, 5.3, or 5.4.
 
-To get the latest version of Alt Three Segment, simply require the project using [Composer](https://getcomposer.org):
+To get the latest version, simply require the project using [Composer](https://getcomposer.org):
 
 ```bash
 $ composer require alt-three/segment
 ```
 
-Instead, you may of course manually update your require block and run `composer update` if you so choose:
-
-```json
-{
-    "require": {
-        "alt-three/segment": "^1.0"
-    }
-}
-```
-
-Once Alt Three Segment is installed, you need to register the service provider. Open up `config/app.php` and add the `AltThree\Segment\SegmentServiceProvider` class to the `providers`.
+Once installed, you need to register the `AltThree\Segment\SegmentServiceProvider` service provider in your `config/app.php`.
 
 
 ## Configuration
