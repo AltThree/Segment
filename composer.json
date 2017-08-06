@@ -44,6 +44,11 @@
     "extra": {
         "branch-alias": {
             "dev-master": "2.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "AltThree\\Segment\\SegmentServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
