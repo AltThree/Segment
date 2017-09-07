@@ -1,5 +1,5 @@
 {
-    "name": "alt-three/segment",
+    "name": "zenchef/segment",
     "description": "A Segment Bridge For Laravel 5",
     "keywords": ["segment", "bridge", "segment.com", "segment.io", "api", "Alt Three"],
     "license": "MIT",
@@ -21,7 +21,7 @@
         "php": "^7.0",
         "illuminate/config": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
         "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
-        "segmentio/analytics-php": "1.3.*"
+        "segmentio/analytics-php": "1.5.*"
     },
     "require-dev": {
         "graham-campbell/analyzer": "^1.1",
