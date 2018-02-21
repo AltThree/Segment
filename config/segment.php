@@ -19,12 +19,24 @@ return [
     |--------------------------------------------------------------------------
     |
     | This option specifies key which enables you to write to Segment's API.
+    | These init options are specified in Segment Docs: https://segment.com/docs/sources/server/php/#configuration
     |
     | Default: ''
     |
     */
 
     'write_key' => '',
-    'consumer' => null,
-    'filename' => null,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Segment Init Options
+    |--------------------------------------------------------------------------
+    |
+    | This option specifies an array of options to initialize Segment.
+    |
+    | Default: []
+    |
+    */
+
+    'init_options' => [],
 ];

@@ -35,12 +35,7 @@ class SegmentServiceProvider extends ServiceProvider
         $this->setupConfig();
 
         if ($writeKey = $this->app->config->get('segment.write_key')) {
-            $options = [
-                'consumer' => $this->app->config->get('segment.consumer'),
-                'filename' => $this->app->config->get('segment.filename'),
-            ];
-
-            Segment::init($writeKey, $options);
+            Segment::init($writeKey, $this->app->config->get('segment.init_options'));
         }
     }
 
