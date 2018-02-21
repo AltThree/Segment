@@ -26,7 +26,7 @@ To get started, you'll need to publish all vendor assets:
 $ php artisan vendor:publish
 ```
 
-This will create a `config/segement.php` file in your app that you can modify to set your configuration. Also, make sure you check for changes to the original config file in this package between releases.
+This will create a `config/segment.php` file in your app that you can modify to set your configuration. Also, make sure you check for changes to the original config file in this package between releases.
 
 
 ## Usage
