@@ -19,7 +19,6 @@ return [
     |--------------------------------------------------------------------------
     |
     | This option specifies key which enables you to write to Segment's API.
-    | These init options are specified in Segment Docs: https://segment.com/docs/sources/server/php/#configuration
     |
     | Default: ''
     |
@@ -33,6 +32,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | This option specifies an array of options to initialize Segment.
+    | These init options are specified in Segment Docs: https://segment.com/docs/sources/server/php/#configuration
     |
     | Default: []
     |
