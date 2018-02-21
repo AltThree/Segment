@@ -25,5 +25,6 @@ return [
     */
 
     'write_key' => '',
-
+    'consumer' => null,
+    'filename' => null,
 ];
