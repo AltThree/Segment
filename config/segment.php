@@ -32,7 +32,8 @@ return [
     |--------------------------------------------------------------------------
     |
     | This option specifies an array of options to initialize Segment.
-    | These init options are specified in Segment Docs: https://segment.com/docs/sources/server/php/#configuration
+    |
+    | See: https://segment.com/docs/sources/server/php/#configuration.
     |
     | Default: []
     |
