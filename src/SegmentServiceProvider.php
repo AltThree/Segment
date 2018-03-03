@@ -37,6 +37,8 @@ class SegmentServiceProvider extends ServiceProvider
         if ($writeKey = $this->app->config->get('segment.write_key')) {
             Segment::init($writeKey, (array) $this->app->config->get('segment.init_options'));
         }
+
+        $this->setupQueue();
     }
 
     /**
@@ -55,6 +57,18 @@ class SegmentServiceProvider extends ServiceProvider
         }
 
         $this->mergeConfigFrom($source, 'segment');
+    }
+
+    /**
+     * Setup the queue.
+     *
+     * @return void
+     */
+    protected function setupQueue()
+    {
+        $this->app->queue->looping(function () {
+            Segment::flush();
+        });
     }
 
     /**
