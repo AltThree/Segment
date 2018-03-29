@@ -13,7 +13,7 @@ To get the latest version, simply require the project using [Composer](https://g
 $ composer require alt-three/segment
 ```
 
-Once installed, if you are not using automatic package discovery, then you need to register the  `AltThree\Segment\SegmentServiceProvider` service provider in your `config/app.php`.
+Once installed, if you are not using automatic package discovery, then you need to register the  `AltThree\Segment\SegmentServiceProvider::class` service provider in your `config/app.php`.
 
 
 ## Configuration
