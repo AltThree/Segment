@@ -60,7 +60,7 @@ Segment::track([
 
 ## Security
 
-If you discover a security vulnerability within this package, please e-mail us at support@alt-three.com. All security vulnerabilities will be promptly addressed.
+Our full security policy is available to read [here](https://github.com/AltThree/Segment/security/policy).
 
 
 ## License
