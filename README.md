@@ -1,6 +1,10 @@
 # Alt Three Segment
 
-A [Segment](https://segment.com/) bridge for Laravel 5.
+[![Build Status](https://img.shields.io/travis/AltThree/Segment/master.svg?style=flat-square)](https://travis-ci.org/AltThree/Segment)
+[![StyleCI](https://github.styleci.io/repos/38056197/shield?branch=master)](https://github.styleci.io/repos/38056197)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+
+**A [Segment](https://segment.com/) bridge for Laravel 5.**
 
 
 ## Installation
