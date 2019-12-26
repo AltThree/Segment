@@ -1,17 +1,16 @@
-# Alt Three Segment
+![Alt Three Segment](https://user-images.githubusercontent.com/2829600/71490849-0de16e00-2825-11ea-87a6-ddada0f35224.png)
 
-[![Build Status](https://img.shields.io/travis/AltThree/Segment/master.svg?style=flat-square)](https://travis-ci.org/AltThree/Segment)
-[![StyleCI](https://github.styleci.io/repos/38056197/shield?branch=master)](https://github.styleci.io/repos/38056197)
-[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-
-**A [Segment](https://segment.com/) bridge for Laravel 5.**
+<p align="center">
+<a href="https://github.styleci.io/repos/38056197"><img src="https://github.styleci.io/repos/38056197/shield?branch=master" alt="StyleCI Status"></img></a>
+<a href="https://travis-ci.org/AltThree/Segment"><img src="https://img.shields.io/travis/AltThree/Segment/master.svg?style=flat-square" alt="Build Status"></img></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="Software License"></img></a>
+<a href="https://github.com/AltThree/Segment/releases"><img src="https://img.shields.io/github/release/AltThree/Segment.svg?style=flat-square" alt="Latest Version"></img></a>
+</p>
 
 
 ## Installation
 
-This version requires [PHP](https://php.net) 7.1-7.4, and supports Laravel 5.5-5.8 and 6 only.
-
-To get the latest version, simply require the project using [Composer](https://getcomposer.org):
+Alt Three Segment is a [Segment](https://segment.com/) bridge for Laravel. This version requires [PHP](https://php.net) 7.1-7.4, and supports Laravel 5.5-5.8 and 6. Simply require the package using [Composer](https://getcomposer.org):
 
 ```bash
 $ composer require alt-three/segment
