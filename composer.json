@@ -1,6 +1,6 @@
 {
     "name": "alt-three/segment",
-    "description": "A Segment bridge for Laravel 5",
+    "description": "A Segment bridge for Laravel",
     "keywords": ["segment", "bridge", "segment.com", "segment.io", "api", "Alt Three"],
     "license": "MIT",
     "authors": [
