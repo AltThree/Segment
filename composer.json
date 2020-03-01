@@ -16,7 +16,7 @@
         "segmentio/analytics-php": "~1.5.2"
     },
     "require-dev": {
-        "graham-campbell/analyzer": "^2.4",
+        "graham-campbell/analyzer": "^2.4|^3.0",
         "graham-campbell/testbench": "^5.4",
         "phpunit/phpunit": "^6.5|^7.5|^8.4|^9.0"
     },
