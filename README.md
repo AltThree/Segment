@@ -3,10 +3,10 @@
 <p align="center">
 <a href="https://github.styleci.io/repos/38056197"><img src="https://github.styleci.io/repos/38056197/shield" alt="StyleCI Status"></img></a>
 <a href="https://github.com/AltThree/Segment/actions?query=workflow%3ATests"><img src="https://img.shields.io/github/workflow/status/AltThree/Segment/Tests?style=flat-square" alt="Build Status"></img></a>
-<a href="https://scrutinizer-ci.com/g/AltThree/Segment/code-structure"><img src="https://img.shields.io/scrutinizer/coverage/g/AltThree/Segment.svg?style=flat-square" alt="Coverage Status"></img></a>
-<a href="https://scrutinizer-ci.com/g/AltThree/Segment"><img src="https://img.shields.io/scrutinizer/g/AltThree/Segment.svg?style=flat-square" alt="Quality Score"></img></a>
-<a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="Software License"></img></a>
-<a href="https://github.com/AltThree/Segment/releases"><img src="https://img.shields.io/github/release/AltThree/Segment.svg?style=flat-square" alt="Latest Version"></img></a>
+<a href="https://scrutinizer-ci.com/g/AltThree/Segment/code-structure"><img src="https://img.shields.io/scrutinizer/coverage/g/AltThree/Segment?style=flat-square" alt="Coverage Status"></img></a>
+<a href="https://scrutinizer-ci.com/g/AltThree/Segment"><img src="https://img.shields.io/scrutinizer/g/AltThree/Segment?style=flat-square" alt="Quality Score"></img></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square" alt="Software License"></img></a>
+<a href="https://github.com/AltThree/Segment/releases"><img src="https://img.shields.io/github/release/AltThree/Segment?style=flat-square" alt="Latest Version"></img></a>
 </p>
 
 
