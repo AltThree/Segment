@@ -1,11 +1,10 @@
 ![Alt Three Segment](https://user-images.githubusercontent.com/2829600/71490849-0de16e00-2825-11ea-87a6-ddada0f35224.png)
 
 <p align="center">
+<a href="https://github.com/AltThree/Segment/actions?query=workflow%3ATests"><img src="https://img.shields.io/github/workflow/status/AltThree/Segment/Tests?label=Tests&style=flat-square" alt="Build Status"></img></a>
 <a href="https://github.styleci.io/repos/38056197"><img src="https://github.styleci.io/repos/38056197/shield" alt="StyleCI Status"></img></a>
-<a href="https://github.com/AltThree/Segment/actions?query=workflow%3ATests"><img src="https://img.shields.io/github/workflow/status/AltThree/Segment/Tests?style=flat-square" alt="Build Status"></img></a>
-<a href="https://scrutinizer-ci.com/g/AltThree/Segment/code-structure"><img src="https://img.shields.io/scrutinizer/coverage/g/AltThree/Segment?style=flat-square" alt="Coverage Status"></img></a>
-<a href="https://scrutinizer-ci.com/g/AltThree/Segment"><img src="https://img.shields.io/scrutinizer/g/AltThree/Segment?style=flat-square" alt="Quality Score"></img></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square" alt="Software License"></img></a>
+<a href="https://packagist.org/packages/alt-three/segment"><img src="https://img.shields.io/packagist/dt/alt-three/segment?style=flat-square" alt="Packagist Downloads"></img></a>
 <a href="https://github.com/AltThree/Segment/releases"><img src="https://img.shields.io/github/release/AltThree/Segment?style=flat-square" alt="Latest Version"></img></a>
 </p>
 
@@ -15,7 +14,7 @@
 Alt Three Segment is a [Segment](https://segment.com/) bridge for Laravel. This version requires [PHP](https://php.net) 7.1-7.4, and supports Laravel 5.5-7. Simply require the package using [Composer](https://getcomposer.org):
 
 ```bash
-$ composer require alt-three/segment
+$ composer require alt-three/segment:^3.4
 ```
 
 Once installed, if you are not using automatic package discovery, then you need to register the  `AltThree\Segment\SegmentServiceProvider` service provider in your `config/app.php`.
