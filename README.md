@@ -41,11 +41,11 @@ Once you've set your `write_key` value in the configuration, you're ready to go!
 
 ```php
 Segment::identify([
-    "userId" => "12345abcde",
-    "traits" => [
-        "name"  => "James Brooks",
-        "email" => "test@test.com",
-    ]
+    'userId' => '12345abcde',
+    'traits' => [
+        'name' => 'James Brooks',
+        'email' => 'test@test.com',
+    ],
 ]);
 ```
 
@@ -53,11 +53,11 @@ Segment::identify([
 
 ```php
 Segment::track([
-    "userId"     => "12345abcde",
-    "event"      => "Did something",
-    "properties" => [
-        "was_awesome" => true,
-    ]
+    'userId' => '12345abcde',
+    'event' => 'Did something',
+    'properties' => [
+        'was_awesome' => true,
+    ],
 ]);
 ```
 
