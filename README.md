@@ -14,7 +14,7 @@
 Alt Three Segment is a [Segment](https://segment.com/) bridge for Laravel. This version requires [PHP](https://php.net) 7.1-7.4, and supports Laravel 5.5-7. Simply require the package using [Composer](https://getcomposer.org):
 
 ```bash
-$ composer require alt-three/segment:^3.4
+$ composer require alt-three/segment:^3.5
 ```
 
 Once installed, if you are not using automatic package discovery, then you need to register the  `AltThree\Segment\SegmentServiceProvider` service provider in your `config/app.php`.
