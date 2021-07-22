@@ -13,7 +13,7 @@
         "php": ">=7.2",
         "illuminate/config": "^6.0 || ^7.0 || ^8.0",
         "illuminate/support": "^6.0 || ^7.0 || ^8.0",
-        "segmentio/analytics-php": "~1.8.0"
+        "segmentio/analytics-php": "~2.0.0"
     },
     "require-dev": {
         "graham-campbell/analyzer": "^2.4 || ^3.0",
