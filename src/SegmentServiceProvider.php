@@ -16,7 +16,7 @@ namespace AltThree\Segment;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
-use Segment;
+use Segment\Segment;
 
 /**
  * This is the segment service provider class.
