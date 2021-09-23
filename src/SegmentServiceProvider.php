@@ -36,9 +36,8 @@ class SegmentServiceProvider extends ServiceProvider
 
         if ($writeKey = $this->app->config->get('segment.write_key')) {
             Segment::init($writeKey, (array) $this->app->config->get('segment.init_options'));
+            $this->setupQueue();
         }
-
-        $this->setupQueue();
     }
 
     /**
