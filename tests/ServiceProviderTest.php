@@ -26,7 +26,7 @@ class ServiceProviderTest extends AbstractPackageTestCase
 {
     use ServiceProviderTrait;
 
-    protected function getServiceProviderClass($app)
+    protected function getServiceProviderClass()
     {
         return SegmentServiceProvider::class;
     }
